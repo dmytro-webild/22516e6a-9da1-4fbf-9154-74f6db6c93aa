@@ -35,6 +35,7 @@ export default function LandingPage() {
               { name: "Cars", id: "catalog" },
               { name: "Why Us", id: "features" },
               { name: "Contact", id: "contact" },
+              { name: "Dashboard", id: "/dashboard" },
             ]}
             brandName="AutoSource"
             button={{ text: "Get Started", href: "#contact" }}
