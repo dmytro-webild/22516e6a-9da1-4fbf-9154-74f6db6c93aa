@@ -151,7 +151,7 @@ export default function LandingPage() {
             tag="Get in Touch"
             title="Ready to get behind the wheel?"
             description="Contact our sales team today to start your journey."
-            buttons={[{ text: "Contact Support", href: "#" }]}
+            buttons={[{ text: "Contact Support", onClick: () => window.location.href = "mailto:autoshpherecompany@gmail.com" }]}
           />
         </div>
 
